@@ -29,7 +29,7 @@ class Maze {
   }
 }
 
-var canvas = document.getElementById('canvas'),
+var canvas = document.getElementById('maze_canvas'),
     context = canvas.getContext('2d');
 
 var maze = new Maze(WIDTH / TILE_SIZE, HEIGHT / TILE_SIZE);
